@@ -16,11 +16,11 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
-    testImplementation 'com.codeborne:selenide:6.3.4'
-    testImplementation 'org.slf4j:slf4j-simple:1.7.36'
-    testImplementation 'io.rest-assured:rest-assured:4.5.1'
-    testImplementation 'com.google.code.gson:gson:2.9.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.0'
+    testImplementation 'com.codeborne:selenide:5.19.0'
+    testImplementation 'org.slf4j:slf4j-simple:1.7.32'
+    implementation 'io.rest-assured:rest-assured:4.3.0'
+    testImplementation 'com.google.code.gson:gson:2.8.6'
     implementation 'com.github.javafaker:javafaker:1.0.2'
 }
 
