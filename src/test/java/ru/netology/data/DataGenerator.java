@@ -7,6 +7,8 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
 
+import java.util.Locale;
+
 import static io.restassured.RestAssured.given;
 
 
@@ -23,7 +25,7 @@ public class DataGenerator {
             .log(LogDetail.ALL)
             .build();
 
-    public static Faker faker = new Faker();
+    public static Faker faker = new Faker(new Locale("ru"));
 
     public static void sendRequest(UserInfo user) {
         given()
